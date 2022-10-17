@@ -96,7 +96,7 @@ const Sidebar = (props) => {
                   color="inherit"
                   variant="subtitle1"
                 >
-                  Can't Hide Inc
+                  {"Can't Hide Inc"}
                 </Typography>
                 <Typography
                   color="neutral.400"

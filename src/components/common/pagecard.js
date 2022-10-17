@@ -10,10 +10,17 @@ const Pagecard = ({ cardProps, cardInfo }) => (
         padding: "10px 16px !important"
       }}
     >
-      <Typography gutterBottom variant="h3" component="div">
+      <Typography
+        gutterBottom
+        variant="h3"
+        component="div"
+      >
         {cardInfo.title}
       </Typography>
-      <Typography variant="h6" color="text.secondary">
+      <Typography
+        variant="h6"
+        color="text.secondary"
+      >
         {cardInfo.content}
       </Typography>
     </CardContent>

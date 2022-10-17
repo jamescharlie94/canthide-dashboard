@@ -18,10 +18,16 @@ const Homecard = ({ cardProps, imgInfo, cardInfo }) => (
         padding: "10px 16px"
       }}
     >
-      <Typography gutterBottom variant="h5" component="div">
+      <Typography gutterBottom
+        variant="h5"
+        component="div"
+      >
         {cardInfo.title}
       </Typography>
-      <Typography variant="body2" color="text.secondary">
+      <Typography
+        variant="body2"
+        color="text.secondary"
+      >
         {cardInfo.content}
       </Typography>
     </CardContent>
@@ -30,7 +36,7 @@ const Homecard = ({ cardProps, imgInfo, cardInfo }) => (
         justifyContent: "flex-end"
       }}
     >
-      <Button size="small">Let's Try!</Button>
+      <Button size="small">{"Let's Try!"}</Button>
     </CardActions>
   </Card>
 );
