@@ -34,7 +34,7 @@ const Page = () => (
             item
             xl={4}
             lg={4}
-            sm={12}
+            sm={4}
             xs={12}
           >
             <Homecard
@@ -52,7 +52,7 @@ const Page = () => (
             item
             xl={4}
             lg={4}
-            sm={12}
+            sm={4}
             xs={12}
           >
             <Homecard
@@ -70,7 +70,7 @@ const Page = () => (
             item
             xl={4}
             lg={4}
-            sm={12}
+            sm={4}
             xs={12}
           >
             <Homecard
