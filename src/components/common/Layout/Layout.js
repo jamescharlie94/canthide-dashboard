@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { Box } from '@mui/material';
 import { styled } from '@mui/material/styles';
-import Navbar from './navbar';
-import Sidebar from './sidebar';
+import Navbar from '../Navbar';
+import Sidebar from '../Sidebar';
 
 const LayoutRoot = styled('div')(({ theme }) => ({
   display: 'flex',

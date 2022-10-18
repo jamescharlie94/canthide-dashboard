@@ -1,8 +1,8 @@
 import Head from 'next/head';
 import { Box, Container } from '@mui/material';
 
-import Layout from '../components/common/layout';
-import Pagecard from '../components/common/pagecard';
+import Layout from '../../components/common/Layout';
+import Pagecard from '../../components/common/Pagecard';
 
 const Page = () => (
   <>

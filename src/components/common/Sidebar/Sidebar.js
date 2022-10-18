@@ -9,9 +9,9 @@ import LocationOnIcon from '@mui/icons-material/LocationOn';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import AttachMoneyIcon from '@mui/icons-material/AttachMoney';
 
-import { Logo } from './logo';
-import { NavItem } from './nav-item';
-import { Selector as SelectorIcon } from "../../icons/selector"
+import Logo from '../Logo';
+import { NavItem } from '../NavItem/NavItem';
+import { Selector as SelectorIcon } from "../../../icons/selector"
 
 const items = [
   {

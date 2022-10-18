@@ -1,4 +1,4 @@
-export const Logo = () => {
+const Logo = () => {
   return (
     <img
       width="75"
@@ -7,3 +7,5 @@ export const Logo = () => {
     />
   );
 };
+
+export default Logo;
